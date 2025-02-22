@@ -1,31 +1,197 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>原神启动</title>
-    <style>
-        .center {
-            text-align: center;
-        }
-        </style>
-    <style>
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-        </style>
-</head>
-<body>
-    <div class="center">
-        <p>原神，启动！！！</p>
-        <p>点击图片</p>
-      </div>
-      
-      <a href="D:\编程\yuanshen_setup_202405121226.exe" download="w3logo">
-        <img border="0" src="data:image/jpeg;base64,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" alt="W3School" width="500" height="500">
-        </a>
+<html lang="zh">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>⎛⎝≥⏝⏝≤⎛⎝</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190316399-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-190316399-3');
+    </script>
+    <style type="text/css">
+        p {
+            margin: 0;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        .overlay,
+        .scare {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        p.overlay-title {
+            font-size: 24px;
+            font-weight: 900;
+            color: black;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+
+        .overlay-button {
+            display: inline-flex;
+            align-items: center;
+            height: 40px;
+            padding-right: 24px;
+            padding-left: 24px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+            border-radius: 4px;
+            margin: 4px;
+            cursor: pointer;
+        }
+
+        .overlay-buttons-wrapper {
+            margin: 24px -8px -8px;
+        }
+
+        #accept-button {
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+
+        #decline-button {
+            color: rgb(0, 0, 0);
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        p.overlay-description {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.5);
+            line-height: 1.25;
+            margin-bottom: 16px;
+        }
+
+        a.overlay-link {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: rgb(255, 0, 0);
+            line-height: 1;
+            position: relative;
+            margin-top: 16px;
+        }
+
+        a.overlay-link::before {
+            position: absolute;
+            content: "";
+            height: calc(50% + 4px);
+            width: calc(100% + 8px);
+            bottom: -4px;
+            left: -4px;
+            background-color: rgba(132, 94, 194, 0.1);
+        }
+
+        .overlay-body {
+            max-width: 512px;
+            text-align: center;
+            font-family: "Inter", sans-serif;
+        }
+
+        .overlay[hidden] {
+            display: none;
+        }
+
+        .overlay {
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(https://www.loliapi.com/acg/);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0;
+        }
+
+        .text-bg {
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 24px;
+        }
+
+        .scare {
+            z-index: 1;
+        }
+
+        video#video {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        video#video::-webkit-media-controls-enclosure {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="overlay" class="overlay">
+        <div class="text-bg">
+            <div class="overlay-body">
+                <p class="overlay-title">您是否已满18岁</p>
+                <p class="overlay-description">以下内容可能不适合<b>未满18岁</b>的人群观看，我们需要确认您的年龄。</p>
+                <p class="overlay-description">The following may not be suitable for people <b>under the age of
+                        18</b> and we need to confirm your age.</p>
+                <div class="overlay-buttons-wrapper">
+                    <div id="accept-button" class="overlay-button">已满18岁</div>
+                    <div id="decline-button" class="overlay-button">未满18岁</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scare">
+        <video id="video" class="video" src="https://vdse.bdstatic.com/192d9a98d782d9c74c96f09db9378d93.mp4"
+            loop="loop"></video>
+        <img src="https://count.getloli.com/get/@rickroll" style="display: none;">
+    </div>
+    <script type="text/javascript">
+        const video = document.getElementById("video");
+        const overlay = document.getElementById("overlay");
+        const declineButton = document.getElementById("decline-button");
+        const acceptButton = document.getElementById("accept-button");
+        let hasClicked;
+        window.onbeforeunload = function () {
+            if (hasClicked) return true;
+        };
+        function buttonClick1(event) {
+            event.preventDefault();
+            if (!hasClicked) hasClicked = true;
+            overlay.hidden = true;
+            video.play();
+            videoClick();
+        }
+        function buttonClick2(event) {
+            window.location.href = 'https://baike.baidu.com/item/%E9%95%87%E6%B1%9F%E9%AB%98%E7%AD%89%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E6%A0%A1/9025148'
+        }
+        function videoClick(event) {
+            if (event) event.preventDefault();
+            // if not fullscreen
+            const { documentElement } = document;
+            if (documentElement.requestFullscreen) documentElement.requestFullscreen();
+            else if (documentElement.mozRequestFullScreen) documentElement.mozRequestFullScreen();
+            else if (documentElement.webkitRequestFullscreen) documentElement.webkitRequestFullscreen();
+            else if (documentElement.msRequestFullscreen) documentElement.msRequestFullscreen();
+        }
+        acceptButton.addEventListener("click", buttonClick1);
+        declineButton.addEventListener("click", buttonClick2);
+        video.addEventListener("click", videoClick);
+    </script>
 </body>
+
 
 </html>
